@@ -1,0 +1,83 @@
+
+.summary-container {
+    padding: 20px;
+  }
+  
+  .summary-heading  {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  .total-expenses{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(55, 187, 248);
+    font-family: cursive;
+  }
+
+  .split-amount{
+    margin-top: 3%;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(55, 248, 222);
+    font-family: cursive;
+  }
+  
+  .expenses-table, .balances-table {
+    margin-bottom: 50px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top:20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .expenses-table th, .balances-table th, 
+  .expenses-table td, .balances-table td {
+    padding:12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .expenses-table th, .balances-table th {
+    background-color: #f7fafc;
+    color: #333;
+    text-align: left;
+  }
+  
+  .balances-table td {
+    text-align: right;
+  }
+
+  .expenses-table td, .balances-table td {
+    color: #555;
+    background-color: #fdfdfd;
+}
+
+  .expenses-table tbody tr:hover, .balances-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.button{
+  margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b12218;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+  
